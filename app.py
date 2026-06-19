@@ -15,7 +15,7 @@ else:
     print("WARNING: GEMINI_API_KEY environment variable not set.")
 
 # Using the recommended free model for text generation
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 @app.route('/api/study', methods=['POST'])
 def study_assistant():
